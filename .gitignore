@@ -1,0 +1,16 @@
+nohup.out
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ
+.idea/
+
+# Java
+bin/
+
+# Maven
+log/
+target/

@@ -1,0 +1,34 @@
+Kafka Finance
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   README.md
+#	new file:   finance-kafka-from-yahoo.iml
+#	new file:   logs/utils.log
+#	modified:   pom.xml
+#	new file:   src/main/Test/TestKafkaLocal.java
+#	renamed:    src/main/java/it/himyd/finance/common/QuotesProperty.java -> src/main/java/it/daplab/finance/common/QuotesProperty.java
+#	renamed:    src/main/java/it/himyd/finance/yahoo/Stock.java -> src/main/java/it/daplab/finance/yahoo/Stock.java
+#	renamed:    src/main/java/it/himyd/finance/yahoo/Utils.java -> src/main/java/it/daplab/finance/yahoo/Utils.java
+#	renamed:    src/main/java/it/himyd/finance/yahoo/YahooFinance.java -> src/main/java/it/daplab/finance/yahoo/YahooFinance.java
+#	renamed:    src/main/java/it/himyd/finance/yahoo/exchanges/ExchangeTimeZone.java -> src/main/java/it/daplab/finance/yahoo/exchanges/ExchangeTimeZone.java
+#	renamed:    src/main/java/it/himyd/finance/yahoo/histquotes/HistQuotesRequest.java -> src/main/java/it/daplab/finance/yahoo/histquotes/HistQuotesRequest.java
+#	renamed:    src/main/java/it/himyd/finance/yahoo/histquotes/HistoricalQuote.java -> src/main/java/it/daplab/finance/yahoo/histquotes/HistoricalQuote.java
+#	renamed:    src/main/java/it/himyd/finance/yahoo/histquotes/Interval.java -> src/main/java/it/daplab/finance/yahoo/histquotes/Interval.java
+#	renamed:    src/main/java/it/himyd/finance/yahoo/quotes/QuotesProperty.java -> src/main/java/it/daplab/finance/yahoo/quotes/QuotesProperty.java
+#	renamed:    src/main/java/it/himyd/finance/yahoo/quotes/QuotesRequest.java -> src/main/java/it/daplab/finance/yahoo/quotes/QuotesRequest.java
+#	renamed:    src/main/java/it/himyd/finance/yahoo/quotes/fx/FxQuote.java -> src/main/java/it/daplab/finance/yahoo/quotes/fx/FxQuote.java
+#	renamed:    src/main/java/it/himyd/finance/yahoo/quotes/fx/FxQuotesRequest.java -> src/main/java/it/daplab/finance/yahoo/quotes/fx/FxQuotesRequest.java
+#	renamed:    src/main/java/it/himyd/finance/yahoo/quotes/fx/FxSymbols.java -> src/main/java/it/daplab/finance/yahoo/quotes/fx/FxSymbols.java
+#	renamed:    src/main/java/it/himyd/finance/yahoo/quotes/stock/StockDividend.java -> src/main/java/it/daplab/finance/yahoo/quotes/stock/StockDividend.java
+#	renamed:    src/main/java/it/himyd/finance/yahoo/quotes/stock/StockQuote.java -> src/main/java/it/daplab/finance/yahoo/quotes/stock/StockQuote.java
+#	renamed:    src/main/java/it/himyd/finance/yahoo/quotes/stock/StockQuotesData.java -> src/main/java/it/daplab/finance/yahoo/quotes/stock/StockQuotesData.java
+#	renamed:    src/main/java/it/himyd/finance/yahoo/quotes/stock/StockQuotesRequest.java -> src/main/java/it/daplab/finance/yahoo/quotes/stock/StockQuotesRequest.java
+#	renamed:    src/main/java/it/himyd/finance/yahoo/quotes/stock/StockStats.java -> src/main/java/it/daplab/finance/yahoo/quotes/stock/StockStats.java
+#	renamed:    src/main/java/it/himyd/kafka/StockProducer.java -> src/main/java/it/daplab/kafka/StockProducer.java
+#	renamed:    src/main/java/it/himyd/utils/CompaniesLister.java -> src/main/java/it/daplab/utils/CompaniesLister.java
+#	new file:   src/main/resources/log4j.properties
+#
