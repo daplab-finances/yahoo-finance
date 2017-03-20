@@ -35,5 +35,4 @@ from `target/` folder:
 
 
 =======
-# yahoo-finance
->>>>>>> b76485fb16e596cf69b90c683d71df2f9a7b8483
+# yahoo-finance-daplab
