@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # finance-yahoo-to-kafka
 
 ## Installation
@@ -17,11 +16,19 @@
 
 ### Build JAR with Maven
 from `target/` folder:
-* `mvn install -f ../pom.xml`
+
+	mvn install -f ../pom.xml
+
 
 ### Run JAR
-* <code>`java -cp finance-kafka-from-yahoo-0.0.1-SNAPSHOT-jar-with-dependencies.jar it.daplab.kafka.StockProducer localhost:9092 stock_topic 1000`</code>
-	* <code>`java -cp finance-kafka-from-yahoo-0.0.1-SNAPSHOT-jar-with-dependencies.jar <producer-class-file> <kafka-broker> <topics-seperated-by-comma> <request-delay-ms>`</code>
+
+```
+java -cp finance-kafka-from-yahoo-0.0.1-SNAPSHOT-jar-with-dependencies.jar \ 
+	it.daplab.kafka.StockProducer localhost:9092 stock_topic 1000
+
+java -cp finance-kafka-from-yahoo-0.0.1-SNAPSHOT-jar-with-dependencies.jar \ 
+	<producer-class-file> <kafka-broker> <topics-seperated-by-comma> <request-delay-ms>
+```
 
 #### Parameters
 * **producer-class-file** (not an args in java)
@@ -33,6 +40,3 @@ from `target/` folder:
 * **request-delay-ms**
   * Number of milliseconds the generator should wait before sending another request
 
-
-=======
-# yahoo-finance-daplab
